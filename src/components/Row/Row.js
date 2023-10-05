@@ -77,8 +77,6 @@ const Row = () => {
                 ></Input>
                 <Button onClick={() => removeInput(input.id)}>Delete</Button>
                 <Button onClick={() => disableInput(input.id)}>Disable</Button>
-                {input.isDisabled && <p>Disabilitato</p>}
-                {!input.isDisabled && <p>Abilitato</p>}
               </li>
             );
           })}
